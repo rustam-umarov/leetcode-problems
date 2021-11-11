@@ -7,5 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Easy\Recursion\" />
+    <Folder Include="Medium\" />
+    <Folder Include="Medium\Recursion\" />
   </ItemGroup>
 </Project>
