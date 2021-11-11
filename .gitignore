@@ -2,3 +2,5 @@ LeetCode/bin/
 LeetCode/obj/
 LeetCode.Test/bin/
 LeetCode.Test/obj
+.vs/
+.DS_Store

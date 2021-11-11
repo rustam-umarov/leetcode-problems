@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LeetCode.Easy;
 
-namespace LeetCode.Test
+namespace LeetCode.Test.EasyTest
 {
     [TestClass]
     public class TwoSumTest
