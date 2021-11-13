@@ -16,7 +16,7 @@
             return Sum(l1, l2, 0, null);
         }
 
-        public Node Sum(Node l1, Node l2, int carry, Node result)
+        private Node Sum(Node l1, Node l2, int carry, Node result)
         {
             // base case to check if there's nothing else left
             if (l1 == null && l2 == null)
@@ -57,7 +57,7 @@
         }
 
         // helper method to append value at the end of linked list
-        public Node AppendElementToTheEnd(Node l1, int value)
+        private Node AppendElementToTheEnd(Node l1, int value)
         {
             if (l1 == null)
             {
