@@ -21,5 +21,6 @@
     <Folder Include="EasyTest\Recursion\" />
     <Folder Include="MediumTest\" />
     <Folder Include="MediumTest\Recursion\" />
+    <Folder Include="HardTest\" />
   </ItemGroup>
 </Project>

@@ -9,5 +9,6 @@
     <Folder Include="Easy\Recursion\" />
     <Folder Include="Medium\" />
     <Folder Include="Medium\Recursion\" />
+    <Folder Include="Hard\" />
   </ItemGroup>
 </Project>

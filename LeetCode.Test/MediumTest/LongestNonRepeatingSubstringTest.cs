@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LeetCode.Medium;
 
-namespace LeetCode.Test.EasyTest
+namespace LeetCode.Test.MediumTest
 {
     [TestClass]
     public class LongestNonRepeatingSubstringTest
