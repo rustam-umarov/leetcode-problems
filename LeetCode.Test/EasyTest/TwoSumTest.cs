@@ -15,17 +15,34 @@ namespace LeetCode.Test.EasyTest
         }
 
         [TestMethod]
-        public void GivenTwoSmallNumbersReturnsTheirSum()
+        public void GivenArrayWithFourElements()
         {
-            var result = _twoSum.Solution(2, 2);
-            Assert.AreEqual(4, result);
+            var result = _twoSum.Solution(new int[]{2, 7, 11, 15}, 9);
+            Assert.IsNotNull(result);
+            Assert.IsInstanceOfType(result, typeof(int[]));
+            Assert.AreEqual(0, result[0]);
+            Assert.AreEqual(1, result[1]);
         }
 
         [TestMethod]
-        public void GivenTwoLargeNumbersReturnsTheirSum()
+        public void GivenArrayWithThreeElements()
         {
-            var result = _twoSum.Solution(273864, 276441);
-            Assert.AreEqual(550305, result);
+            var result = _twoSum.Solution(new int[] { 3, 2, 4 }, 6);
+            Assert.IsNotNull(result);
+            Assert.IsInstanceOfType(result, typeof(int[]));
+            Assert.AreEqual(1, result[0]);
+            Assert.AreEqual(2, result[1]);
+        }
+
+
+        [TestMethod]
+        public void GivenArrayWithTwoElements()
+        {
+            var result = _twoSum.Solution(new int[] { 3, 3 }, 6);
+            Assert.IsNotNull(result);
+            Assert.IsInstanceOfType(result, typeof(int[]));
+            Assert.AreEqual(0, result[0]);
+            Assert.AreEqual(1, result[1]);
         }
     }
 }
