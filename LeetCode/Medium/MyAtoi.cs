@@ -1,6 +1,8 @@
 ﻿using System;
 namespace LeetCode.Medium
 {
+    //###source: https://leetcode.com/problems/string-to-integer-atoi/
+
     public class MyAtoi
     {
         public int Solution(string s)
