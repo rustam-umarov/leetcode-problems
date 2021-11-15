@@ -42,9 +42,7 @@ namespace LeetCode.Medium
 
             // if given number was negative, convert it back
             // otherwise return the original value of result
-            if (isNegative)
-                return result * -1;
-            return result;
+            return isNegative ? result * -1 : result ;
         }
     }
 }
