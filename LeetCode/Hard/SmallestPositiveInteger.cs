@@ -3,6 +3,8 @@ using System;
 
 namespace LeetCode.Hard
 {
+    //###source: https://leetcode.com/problems/first-missing-positive/
+
     public class SmallestPositiveInteger
     {
         public int Solution(int[] nums)
